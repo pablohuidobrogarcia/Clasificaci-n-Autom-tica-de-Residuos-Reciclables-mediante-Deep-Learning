@@ -1,0 +1,34 @@
+{
+  "LATAS": {
+    "mean_R": 0.4168,
+    "mean_G": 0.3859,
+    "mean_B": 0.3437,
+    "std_R": 0.1859,
+    "std_G": 0.177,
+    "std_B": 0.1671
+  },
+  "PET": {
+    "mean_R": 0.501,
+    "mean_G": 0.4714,
+    "mean_B": 0.4345,
+    "std_R": 0.1939,
+    "std_G": 0.1859,
+    "std_B": 0.1795
+  },
+  "VIDRIO": {
+    "mean_R": 0.4688,
+    "mean_G": 0.4243,
+    "mean_B": 0.3701,
+    "std_R": 0.1891,
+    "std_G": 0.1829,
+    "std_B": 0.1785
+  },
+  "ImageNet_referencia": {
+    "mean_R": 0.485,
+    "mean_G": 0.456,
+    "mean_B": 0.406,
+    "std_R": 0.229,
+    "std_G": 0.224,
+    "std_B": 0.225
+  }
+}

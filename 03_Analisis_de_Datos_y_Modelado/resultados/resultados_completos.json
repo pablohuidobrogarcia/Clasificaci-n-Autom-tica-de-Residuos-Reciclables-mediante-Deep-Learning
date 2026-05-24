@@ -1,0 +1,32 @@
+{
+  "resnet50": {
+    "nombre_display": "ResNet50",
+    "metricas_test": {
+      "f1": 0.9823844490656746,
+      "precision": 0.9825408363105702,
+      "recall": 0.9824046920821115,
+      "accuracy": 0.9824046920821115,
+      "tiempo_inferencia_ms": 3.6601819646306883
+    }
+  },
+  "efficientnet_b3": {
+    "nombre_display": "EfficientNet-B3",
+    "metricas_test": {
+      "f1": 0.9824078574304105,
+      "precision": 0.9824364475813354,
+      "recall": 0.9824046920821115,
+      "accuracy": 0.9824046920821115,
+      "tiempo_inferencia_ms": 3.0281207004150787
+    }
+  },
+  "convnext_tiny": {
+    "nombre_display": "ConvNeXt-Tiny",
+    "metricas_test": {
+      "f1": 0.9970676093769008,
+      "precision": 0.9970927292951764,
+      "recall": 0.9970674486803519,
+      "accuracy": 0.9970674486803519,
+      "tiempo_inferencia_ms": 14.132152130077412
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "nombre": "Residuos Reciclables - SDDR",
+  "version": "1.0",
+  "clases": {
+    "LATAS": {
+      "total": 743,
+      "porcentaje": 32.8
+    },
+    "PET": {
+      "total": 764,
+      "porcentaje": 33.7
+    },
+    "VIDRIO": {
+      "total": 757,
+      "porcentaje": 33.4
+    }
+  },
+  "total_imagenes": 2264,
+  "desbalance_maximo_pct": 2.7,
+  "formato_imagenes": [
+    "jpg",
+    "jpeg",
+    "png"
+  ],
+  "resolucion_entrada_px": 224,
+  "condiciones_captura": [
+    "variabilidad de iluminacion (frontal, lateral, mixta)",
+    "fondos diversos (uniforme, texturizados, complejos)",
+    "angulos variados (frontal, oblicuo, superior)",
+    "estados de conservacion (nuevo, usado, deteriorado)"
+  ]
+}

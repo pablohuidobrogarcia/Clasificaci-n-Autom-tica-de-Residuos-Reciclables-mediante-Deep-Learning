@@ -1,0 +1,31 @@
+{
+  "seed": 42,
+  "image_size": 224,
+  "batch_size": 32,
+  "epochs": 50,
+  "early_stopping_patience": 10,
+  "learning_rate": 0.0001,
+  "weight_decay": 0.0001,
+  "train_split": 0.7,
+  "val_split": 0.15,
+  "test_split": 0.15,
+  "augmentation_factor": 5,
+  "num_classes": 3,
+  "class_names": [
+    "LATAS",
+    "ALUMINIO",
+    "VIDRIO"
+  ],
+  "optimizer": "AdamW",
+  "scheduler": "ReduceLROnPlateau",
+  "scheduler_patience": 5,
+  "scheduler_factor": 0.5,
+  "criterion": "CrossEntropyLoss",
+  "pretrained": "ImageNet",
+  "framework": "PyTorch + TIMM",
+  "arquitecturas": [
+    "ResNet50",
+    "EfficientNet-B3",
+    "ConvNeXt-Tiny"
+  ]
+}

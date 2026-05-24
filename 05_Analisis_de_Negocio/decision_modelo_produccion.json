@@ -1,0 +1,23 @@
+{
+  "modelo_recomendado": "ConvNeXt-Tiny",
+  "criterio_seleccion": "multicriterio — NO automatico por F1 maximo",
+  "f1_score": 0.997068,
+  "latencia_ms_laboratorio": 14.1322,
+  "errores_por_10k": 29,
+  "reduccion_errores_vs_resnet_pct": 83.5,
+  "justificacion": [
+    "Reduccion del 83.5% en errores absolutos vs ResNet50",
+    "Latencia en laboratorio: 14.13 ms — margen operativo x14",
+    "Mayor defensibilidad regulatoria ante auditorias Ley 7/2022",
+    "TensorRT soportado desde v8.5+ — ecosistema funcional para Jetson Orin Nano"
+  ],
+  "contingencia": {
+    "modelo": "ResNet50",
+    "condicion": "Activar si latencia ConvNeXt-Tiny en Jetson Orin Nano real supera 200 ms",
+    "f1_score": 0.982384
+  },
+  "alternativa_hardware": {
+    "modelo": "EfficientNet-B3",
+    "condicion": "Si restricciones de hardware son mas severas que las previstas"
+  }
+}
